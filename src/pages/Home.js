@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col, Row, Container } from '../components/Grid';
+import Nav from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
@@ -9,6 +11,7 @@ const Home = () => {
 
                 </Col>
             </Row>
+                <Footer />
         </Container>
     )
 }
