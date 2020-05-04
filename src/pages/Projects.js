@@ -1,12 +1,15 @@
 import React from 'react';
 import { Col, Row, Container } from '../components/Grid';
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+
 
 const Projects = () => {
     return (
         <Container fluid>
+          <Navbar /> 
             <Row>
-                <Col size='md-3'>
+                <Col size="md-3">
                     <div class="card">
                         <img class="card-img-top" src="../assets/burger.png" alt="Card image cap" />
                             <div class="card-body">
@@ -18,7 +21,7 @@ const Projects = () => {
                             </div>
                     </div>
              </Col>
-             <Col size='md-3'>
+             <Col size="md-3">
                     <div class="card">
                         <img class="card-img-top" src="" alt="Card image cap" />
                             <div class="card-body">
@@ -29,7 +32,7 @@ const Projects = () => {
                             </div>
                     </div>
             </Col>
-            <Col size='md-3'>
+            <Col size="md-3">
                     <div class="card">
                         <img class="card-img-top" src=" " alt="Card image cap" />
                             <div class="card-body">
@@ -41,7 +44,7 @@ const Projects = () => {
                     </div>
             </Col>
            
-             <Col size='md-3'>
+             <Col size="md-3">
                 <div class="card">
                         <img class="card-img-top" src=" " alt="Card image cap" />
                             <div class="card-body">
@@ -52,7 +55,7 @@ const Projects = () => {
                             </div>
                     </div>
                 </Col>
-                <Col size='md-3'>
+                <Col size="md-3">
                     <div class="card">
                         <img class="card-img-top" src=" " alt="Card image cap" />
                             <div class="card-body">
@@ -63,7 +66,7 @@ const Projects = () => {
                             </div>
                     </div>
                 </Col>
-                <Col size='md-3'>
+                <Col size="md-3">
                     <div class="card">
                         <img class="card-img-top" src=" " alt="Card image cap" />
                             <div class="card-body">
