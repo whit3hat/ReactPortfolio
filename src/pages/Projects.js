@@ -2,6 +2,8 @@ import React from 'react';
 import { Col, Row, Container } from '../components/Grid';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Burger from '../assests/burger.png';
+import Planner from '../assests/dailyplanner.png';
 
 
 const Projects = () => {
@@ -9,71 +11,72 @@ const Projects = () => {
         <Container fluid>
           <Navbar /> 
             <Row>
-                <Col size="md-3">
-                    <div class="card">
-                        <img class="card-img-top" src="../assets/burger.png" alt="Card image cap" />
-                            <div class="card-body">
-                                <h4 class="card-title"><a>Burger Shop</a></h4>
-                                <p class="card-text"></p>
+                <Col size="lg-6 md-3">
+                    <div className="card">
+                        <img className="card-img-top" src={Burger} alt="Card image cap" />
+                            <div className="card-body">
+                                <h4 className="card-title"><a>Burger Shop</a></h4>
+                                <p className="card-text"></p>
                                 {/* <!-- Button --> */}
-                                <a href="#" class="btn btn-primary">Button</a>
+                                <a href="#" className="btn btn-primary">Button</a>
                                 
                             </div>
                     </div>
              </Col>
-             <Col size="md-3">
-                    <div class="card">
-                        <img class="card-img-top" src="" alt="Card image cap" />
-                            <div class="card-body">
-                                <h4 class="card-title"><a>Password Generator</a></h4>
-                                <p class="card-text"></p>
+             <Col size="lg-6 md-3">
+                    <div className="card">
+                        <img className="card-img-top" src="" alt="Card image cap" />
+                            <div className="card-body">
+                                <h4 className="card-title"><a>Password Generator</a></h4>
+                                <p className="card-text"></p>
                                 {/* <!-- Button --> */}
-                                <a href="#" class="btn btn-primary">Button</a>
+                                <a href="#" className="btn btn-primary">Button</a>
                             </div>
                     </div>
             </Col>
-            <Col size="md-3">
-                    <div class="card">
-                        <img class="card-img-top" src=" " alt="Card image cap" />
-                            <div class="card-body">
-                                <h4 class="card-title"><a>Daily Planner</a></h4>
-                                <p class="card-text"> </p>
+            <Col size="lg-6 md-3">
+                    <div className="card">
+                        <img className="card-img-top" src={Planner} alt="Card image cap" />
+                            <div className="card-body">
+                                <h4 className="card-title"><a>Daily Planner</a></h4>
+                                <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" class="btn btn-primary">Button</a>
+                                <a href="#" className="btn btn-primary">Button</a>
                             </div>
                     </div>
             </Col>
-           
-             <Col size="md-3">
-                <div class="card">
-                        <img class="card-img-top" src=" " alt="Card image cap" />
-                            <div class="card-body">
-                                <h4 class="card-title"><a>Luke and Morty</a></h4>
-                                <p class="card-text"> </p>
+           </Row>
+           <Row>
+             <Col size="lg-6 md-3">
+                <div className="card">
+                        <img className="card-img-top" src=" " alt="Card image cap" />
+                            <div className="card-body">
+                                <h4 className="card-title"><a>Luke and Morty</a></h4>
+                                <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" class="btn btn-primary">Button</a>
+                                <a href="#" className="btn btn-primary">Button</a>
                             </div>
                     </div>
                 </Col>
-                <Col size="md-3">
-                    <div class="card">
-                        <img class="card-img-top" src=" " alt="Card image cap" />
-                            <div class="card-body">
-                                <h4 class="card-title"><a>Budget Tracker</a></h4>
-                                <p class="card-text"> </p>
+                <Col size="lg-6 md-3">
+                    <div className="card">
+                        <img className="card-img-top" src=" " alt="Card image cap" />
+                            <div className="card-body">
+                                <h4 className="card-title"><a>Budget Tracker</a></h4>
+                                <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" class="btn btn-primary">Button</a>
+                                <a href="#" className="btn btn-primary">Button</a>
                             </div>
                     </div>
                 </Col>
-                <Col size="md-3">
-                    <div class="card">
-                        <img class="card-img-top" src=" " alt="Card image cap" />
-                            <div class="card-body">
-                                <h4 class="card-title"><a>Employee Tracker</a></h4>
-                                <p class="card-text"> </p>
+                <Col size="lg-6 md-3">
+                    <div className="card">
+                        <img className="card-img-top" src=" " alt="Card image cap" />
+                            <div className="card-body">
+                                <h4 className="card-title"><a>Employee Tracker</a></h4>
+                                <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" class="btn btn-primary">Button</a>
+                                <a href="#" className="btn btn-primary">Button</a>
                             </div>
                     </div>
                     

@@ -17,9 +17,9 @@ export function Col({ size, children }) {
     return (
         <div
             className={size
-            .split('')
+            .split(' ')
             .map(size => 'col-' + size)
-            .join('')}
+            .join(' ')}
         >
             {children}
     </div>
