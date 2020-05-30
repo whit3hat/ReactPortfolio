@@ -17,7 +17,7 @@ const Projects = () => {
             <Row>
                 <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src={Burger} alt="Card image cap" />
+                        <img className="card-img-top" src={Burger} alt="" />
                             <div className="card-body"> 
                                 <h4 className="card-title"><a>Burger Shop</a></h4>
                                 <p className="card-text"></p>
@@ -29,7 +29,7 @@ const Projects = () => {
              </Col>
              <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src={Password} alt="Card image cap" />
+                        <img className="card-img-top" src={Password} alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Password Generator</a></h4>
                                 <p className="card-text"></p>
@@ -40,7 +40,7 @@ const Projects = () => {
             </Col>
             <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src={Planner} alt="Card image cap" />
+                        <img className="card-img-top" src={Planner} alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Daily Planner</a></h4>
                                 <p className="card-text"> </p>
@@ -53,7 +53,7 @@ const Projects = () => {
            <Row>
              <Col size="lg-6 md-3">
                 <div className="card">
-                        <img className="card-img-top" src={Quiz} alt="Card image cap" />
+                        <img className="card-img-top" src={Quiz} alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Luke and Morty</a></h4>
                                 <p className="card-text"> </p>
@@ -64,7 +64,7 @@ const Projects = () => {
                 </Col>
                 <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src=" " alt="Card image cap" />
+                        <img className="card-img-top" src=" " alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Budget Tracker</a></h4>
                                 <p className="card-text"> </p>
@@ -75,7 +75,7 @@ const Projects = () => {
                 </Col>
                 <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src=" " alt="Card image cap" />
+                        <img className="card-img-top" src=" " alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Employee Tracker</a></h4>
                                 <p className="card-text"> </p>

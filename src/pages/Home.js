@@ -11,6 +11,11 @@ const Home = () => {
                 <Col size='md-6'>
 
                 </Col>
+                <Col size='md-6'>
+                    <text>
+                        I'm a father of two.
+                    </text>
+                </Col>
             </Row>
                 <Footer />
         </Container>
