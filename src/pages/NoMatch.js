@@ -6,7 +6,7 @@ const NoMatch = () => {
         <Container fluid>
             <Row>
                 <Col size='md-12'>
-                    <h1>404 Page Not Found</h1>
+                    <h1>404 This isn't the page you're looking for...</h1>
                 </Col>
             </Row>
         </Container>
