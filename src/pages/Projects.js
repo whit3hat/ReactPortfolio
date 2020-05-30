@@ -22,7 +22,7 @@ const Projects = () => {
                                 <h4 className="card-title"><a>Burger Shop</a></h4>
                                 <p className="card-text"></p>
                                 {/* <!-- Button --> */}
-                                <a href="#" className="btn btn-primary">Button</a>
+                                <a href="https://github.com/whit3hat/BurgerShop " className="btn btn-primary">GitHub Link</a>
                                 
                             </div>
                     </div>
@@ -34,7 +34,7 @@ const Projects = () => {
                                 <h4 className="card-title"><a>Password Generator</a></h4>
                                 <p className="card-text"></p>
                                 {/* <!-- Button --> */}
-                                <a href="#" className="btn btn-primary">Button</a>
+                                <a href="https://github.com/whit3hat/pwdmgr" className="btn btn-primary">GitHub Link</a>
                             </div>
                     </div>
             </Col>
@@ -45,7 +45,7 @@ const Projects = () => {
                                 <h4 className="card-title"><a>Daily Planner</a></h4>
                                 <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" className="btn btn-primary">Button</a>
+                                <a href="https://github.com/whit3hat/Scheduler" className="btn btn-primary">GitHub Link</a>
                             </div>
                     </div>
             </Col>
@@ -58,7 +58,7 @@ const Projects = () => {
                                 <h4 className="card-title"><a>Luke and Morty</a></h4>
                                 <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" className="btn btn-primary">Button</a>
+                                <a href="https://github.com/whit3hat/Luke-and-Morty" className="btn btn-primary">GitHub Link</a>
                             </div>
                     </div>
                 </Col>
@@ -69,7 +69,7 @@ const Projects = () => {
                                 <h4 className="card-title"><a>Budget Tracker</a></h4>
                                 <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" className="btn btn-primary">Button</a>
+                                <a href="https://github.com/whit3hat/Budget_Tracker" className="btn btn-primary">GitHub Link</a>
                             </div>
                     </div>
                 </Col>
@@ -80,7 +80,7 @@ const Projects = () => {
                                 <h4 className="card-title"><a>Employee Tracker</a></h4>
                                 <p className="card-text"> </p>
                                 {/* <!-- Button --> */}
-                                <a href="#" className="btn btn-primary">Button</a>
+                                <a href="https://github.com/whit3hat/EmployeeTracker" className="btn btn-primary">GitHub Link</a>
                             </div>
                     </div>
                     
