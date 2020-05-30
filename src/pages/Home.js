@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 const Home = () => {
     return (
         <Container fluid>
+            <Nav />
             <Row>
                 <Col size='md-6'>
 
