@@ -5,8 +5,10 @@ import { Col, Row, Container } from '../components/Grid';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Burger from '../assests/burger.png';
-import Planner from '../assests/dailyplanner.png';
+import Planner from '../assests/DailyPlanner.png';
+import Budget from '../assests/BudgetTracker.png'
 import Password from '../assests/password.jpeg';
+import EmployeeTracker from '../assests/EmployeeTracker.png';
 import Quiz from '../assests/quiz.jpeg';
 
 
@@ -64,7 +66,7 @@ const Projects = () => {
                 </Col>
                 <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src=" " alt="" />
+                        <img className="card-img-top" src={Budget} alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Budget Tracker</a></h4>
                                 <p className="card-text"> </p>
@@ -75,7 +77,7 @@ const Projects = () => {
                 </Col>
                 <Col size="lg-6 md-3">
                     <div className="card">
-                        <img className="card-img-top" src=" " alt="" />
+                        <img className="card-img-top" src={EmployeeTracker} alt="" />
                             <div className="card-body">
                                 <h4 className="card-title"><a>Employee Tracker</a></h4>
                                 <p className="card-text"> </p>

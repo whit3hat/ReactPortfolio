@@ -3,14 +3,14 @@ import { Col, Row, Container } from '../components/Grid';
 import BioPic from '../assests/bio_pic.jpg';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
-import './Home.css';
 import './Reset.css';
+import './Home.css';
 
 const Home = () => {
     return (
         <Container fluid>
             <Nav />
-            <Row>
+            <Row justify-content-center>
                 <Col size='md-6'>
                     <img src={BioPic} />
                 </Col>
