@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from '../../pages/Home';
 import Projects from '../../pages/Projects';
+import Resume from '../../assests/Resume.pdf';
 import './style.css';
 
 function Nav() {
@@ -29,7 +30,7 @@ function Nav() {
          <a href="https://www.linkedin.com/in/spencer-wood-73158b61/" className="nav-link"><i className="fab fa-linkedin fa-lg"></i></a>
           </li>
           <li className="nav-item">
-            <a href="/" className="nav-link"><i className="far fa-file-pdf fa-lg"></i></a>
+            <a href={Resume} target='_blank' className="nav-link"><i className="far fa-file-pdf fa-lg"></i></a>
           </li>
       </ul>
     </div>
