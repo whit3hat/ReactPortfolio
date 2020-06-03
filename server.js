@@ -1,4 +1,5 @@
 const express = require ('express');
+const logger = require('morgan');
 
 //after importing express we call creating the variable for the routes
 const routes = require('./routes');
@@ -15,7 +16,8 @@ if (process.env.NODE_ENV === 'production') {
 
 //adding routes for views
 app.use(routes);
-
+app.use(logger('dev'));
+app.use(express.static('public'));
 //Start the server
 app.listen(PORT, function() {
     console.log(`API Server now listening on PORT ${PORT}`);
