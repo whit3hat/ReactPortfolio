@@ -15,13 +15,14 @@ import Quiz from '../assests/quiz.jpeg';
 const Projects = () => {
     return (
         <Container fluid>
-          <Navbar /> 
+          <Navbar />
+          
             <Row>
-                <Col size="lg-6 md-3">
+                <Col size="lg-4 md-4">
                     <div className="card">
                         <img className="card-img-top" src={Burger} alt="" />
                             <div className="card-body"> 
-                                <h4 className="card-title"><a>Burger Shop</a></h4>
+                                <h4 className="card-title">Burger Shop</h4>
                                 <p className="card-text"></p>
                                 {/* <!-- Button --> */}
                                 <a href="https://github.com/whit3hat/BurgerShop " className="btn btn-primary">GitHub Link</a>
@@ -29,7 +30,7 @@ const Projects = () => {
                             </div>
                     </div>
              </Col>
-             <Col size="lg-6 md-3">
+             <Col size="lg-4 md-4">
                     <div className="card">
                         <img className="card-img-top" src={Password} alt="" />
                             <div className="card-body">
@@ -40,7 +41,7 @@ const Projects = () => {
                             </div>
                     </div>
             </Col>
-            <Col size="lg-6 md-3">
+            <Col size="lg-4 md-4">
                     <div className="card">
                         <img className="card-img-top" src={Planner} alt="" />
                             <div className="card-body">
@@ -52,8 +53,9 @@ const Projects = () => {
                     </div>
             </Col>
            </Row>
+           
            <Row>
-             <Col size="lg-6 md-3">
+             <Col size="lg-4 md-4">
                 <div className="card">
                         <img className="card-img-top" src={Quiz} alt="" />
                             <div className="card-body">
@@ -64,7 +66,7 @@ const Projects = () => {
                             </div>
                     </div>
                 </Col>
-                <Col size="lg-6 md-3">
+                <Col size="lg-4 md-4">
                     <div className="card">
                         <img className="card-img-top" src={Budget} alt="" />
                             <div className="card-body">
@@ -75,7 +77,7 @@ const Projects = () => {
                             </div>
                     </div>
                 </Col>
-                <Col size="lg-6 md-3">
+                <Col size="lg-4 md-4">
                     <div className="card">
                         <img className="card-img-top" src={EmployeeTracker} alt="" />
                             <div className="card-body">
@@ -85,7 +87,7 @@ const Projects = () => {
                                 <a href="https://github.com/whit3hat/EmployeeTracker" className="btn btn-primary">GitHub Link</a>
                             </div>
                     </div>
-                    
+                
             </Col>
         </Row>
     <Footer />

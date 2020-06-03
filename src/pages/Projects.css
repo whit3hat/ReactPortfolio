@@ -1,3 +1,8 @@
+.container-fluid {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
 .card {
     background-size: cover;
     background-position: center;
@@ -22,3 +27,8 @@
     height: 250px;
     width: 350px;
 }
+
+.card-title {
+  text-align: center;
+}
+
