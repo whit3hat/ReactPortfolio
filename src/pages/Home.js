@@ -1,16 +1,18 @@
 import React from 'react';
+import './Home.css';
 import { Col, Row, Container } from '../components/Grid';
 import BioPic from '../assests/bio_pic.jpg';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
-import './Reset.css';
-import './Home.css';
+
+
 
 const Home = () => {
     return (
         <Container fluid>
             <Nav />
-            <Row justify-content-center>
+            <div id='profile' style={{paddingTop:'100px'}}>
+            <Row>
                 <Col size='md-6'>
                     <img src={BioPic} />
                 </Col>
@@ -35,6 +37,7 @@ const Home = () => {
                 </Col>
             </Row>
                 <Footer />
+                </div>
         </Container>
     )
 }

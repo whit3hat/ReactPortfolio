@@ -1,5 +1,4 @@
 import React from 'react';
-import './Reset.css';
 import './Projects.css';
 import { Col, Row, Container } from '../components/Grid';
 import Footer from '../components/Footer';
