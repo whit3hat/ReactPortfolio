@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import { Col, Row, Container } from '../components/Grid';
+import { Col, Row, Container } from 'reactstrap';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Burger from '../assests/burger.png';
@@ -13,7 +13,8 @@ import Quiz from '../assests/quiz.jpeg';
 
 const Projects = () => {
     return (
-        <Container fluid>
+        <div>
+        <Container className='themed-container' fluid={true}>
           <Navbar />
           
             <Row>
@@ -91,6 +92,7 @@ const Projects = () => {
         </Row>
     <Footer />
 </Container>
+</div>
     )
 }
 
