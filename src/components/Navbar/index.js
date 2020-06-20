@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from '../../pages/Home';
+import Contact from '../../pages/Contact';
 import Projects from '../../pages/Projects';
 import Resume from '../../assests/Resume.pdf';
 import './style.css';
@@ -20,6 +21,9 @@ function Nav() {
         </li>
         <li className="nav-item active">
           <a className="nav-link" href="/Projects" component={Projects}>Portfolio <span className="sr-only">(current)</span></a>
+        </li>
+        <li className="nav-item active">
+          <a className="nav-link" href="/Contact" component={Contact}>Contact <span className="sr-only">(current)</span></a>
         </li>
       </ul>
       <ul className="navbar-nav nav-flex-icons">
