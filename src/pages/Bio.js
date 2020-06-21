@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './Bio.css';
 import { Col, Row, Container } from 'reactstrap';
 import BioPic from '../assests/bio_pic.jpg';
 import Nav from '../components/Navbar';
