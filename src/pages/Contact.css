@@ -1,3 +1,7 @@
 .themed-container {
     font-family: 'Ubuntu', sans-serif;
 }
+
+.card-text {
+    text-align: center;
+}
