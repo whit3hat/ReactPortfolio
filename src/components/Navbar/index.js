@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from '../../pages/Home';
 import Bio from '../../pages/Bio';
 import Contact from '../../pages/Contact';
 import Projects from '../../pages/Projects';
@@ -9,7 +10,7 @@ function Nav() {
     return (
         <header>
   <nav className="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <a className="navbar-brand" id='name'><strong>Spencer Wood</strong></a>
+    <a className="navbar-brand nav-link" href='/' component={Home} id='name'><strong>Spencer Wood</strong></a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

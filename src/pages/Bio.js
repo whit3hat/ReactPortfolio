@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 
 
-const Home = () => {
+const Bio = () => {
     return (
         <div id='profile' style={{paddingTop:'100px'}}>
             <Container className='themed-container' fluid={true}>
@@ -47,4 +47,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Bio;
