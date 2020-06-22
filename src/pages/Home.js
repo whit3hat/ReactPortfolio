@@ -16,8 +16,10 @@ const Home = () => {
                         </div>
                     </Row>
                     <Row>
-                        Full Stack Web Developer based in Kansas City who enjoys building Web
-                        Apps and brining them to life!
+                        <div id='homeBio' style={{ fontFamily: 'Ubuntu' }}>
+                            <p>Full Stack Web Developer based in Kansas City who enjoys building Web
+                                Apps and brining them to life!</p> 
+                        </div>
                     </Row>
                 </div>
             </Container>

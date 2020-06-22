@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 const Contact = () => {
 
     return (
-        <div id='contact' style={{ paddingTop:'100px' }}>
+        <div id='contact' style={{ paddingTop:'100px' , fontFamily:'Ubuntu' }}>
             <Container className='themed-container' fluid={true} >
                <Nav /> 
                     <Row>
