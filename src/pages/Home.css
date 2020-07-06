@@ -1,7 +1,6 @@
-#home {
-    padding-top: 100px !important;
-};
-
-.homeContent {
-    padding-left: 50px !important;
+.page-footer {
+    position: absolute;
+ bottom: 0;
+ width: 100%;
 }
+
