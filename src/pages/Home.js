@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Row, Container } from 'reactstrap';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
+import skyline from '../assests/skyline.jpg';
 import './Home.css';
 
 const Home = () => {
