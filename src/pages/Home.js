@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row, Container } from 'reactstrap';
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
-import skyline from '../assests/skyline.jpg';
+import skyline from '../assests/skyline.jpeg';
 import './Home.css';
 
 const Home = () => {
@@ -16,10 +16,12 @@ const Home = () => {
                             <p>Hello, I'm Spencer!</p>
                         </div>
                     </Row>
-                    <Row>
-                        <div id='homeBio' style={{ fontFamily: 'Ubuntu' , color: '#283655'}}>
+                    <Row id='bioRow'>
+                        <div id='homeBio' style={{ fontFamily: 'Ubuntu' , color: '#283655', position: 'relative' , zIndex: '1' }}>
                             <p>Full Stack Web Developer based in Kansas City <br/> who enjoys building Web
                                 Apps and brining them to life!</p> 
+                            
+                                <img src ={skyline} />
                         </div>
                     </Row>
                 </div>
