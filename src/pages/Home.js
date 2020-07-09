@@ -17,11 +17,11 @@ const Home = () => {
                         </div>
                     </Row>
                     <Row id='bioRow'>
-                        <div id='homeBio' style={{ fontFamily: 'Ubuntu' , color: '#283655', position: 'relative' , zIndex: '1' }}>
+                        <div id='homeBio' style={{ fontFamily: 'Ubuntu' , color: '#283655' }}>
                             <p>Full Stack Web Developer based in Kansas City <br/> who enjoys building Web
                                 Apps and brining them to life!</p> 
                             
-                                <img src ={skyline} />
+                                <img src ={skyline} style={{ position: 'relative', zIndex: '-1' }} />
                         </div>
                     </Row>
                 </div>

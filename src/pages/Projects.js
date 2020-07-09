@@ -25,8 +25,9 @@ const Projects = () => {
                                 <h4 className="card-title">Burger Shop</h4>
                                 <p className="card-text"></p>
                                 {/* <!-- Button --> */}
+                                <div className='d-flex justify-content-center'>
                                 <a href="https://github.com/whit3hat/BurgerShop " className="btn btn-primary">GitHub Link</a>
-                                
+                                </div>
                             </div>
                     </div>
              </Col>
