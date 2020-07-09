@@ -7,7 +7,13 @@ import Projects from '../../pages/Projects';
 import Resume from '../../assests/Resume.pdf';
 import './style.css';
 
-function Nav() {
+ 
+
+const Nav = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+  
     return (
         <header>
   <nav className="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
