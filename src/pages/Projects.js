@@ -88,7 +88,7 @@ const Projects = () => {
                 </Col>
                 <Col size="lg-4 md-4">
                     <div className="card">
-                        <img className="card-img-top" src={EmployeeTracker} alt="" />
+                        <img className="card-img-top" src={EmployeeTracker} alt="" style={{ alignSelf: 'center' }}/>
                             <div className="card-body">
                                 <h4 className="card-title"><a>Employee Tracker</a></h4>
                                 <p className="card-text"> </p>

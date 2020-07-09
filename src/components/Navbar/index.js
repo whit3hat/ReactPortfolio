@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import Home from '../../pages/Home';
 import Bio from '../../pages/Bio';
 import Contact from '../../pages/Contact';
