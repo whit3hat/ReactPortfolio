@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import { Col, Row, Container } from 'reactstrap';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+import Nav2 from '../components/Navbar2';
 import Burger from '../assests/burger.png';
 import Planner from '../assests/DailyPlanner.png';
 import Budget from '../assests/BudgetTracker.png'
@@ -15,7 +15,7 @@ const Projects = () => {
     return (
         <div>
         <Container className='themed-container' fluid={true}>
-          <Navbar />
+          <Nav2 />
           
             <Row>
                 <Col size="lg-4 md-4">
