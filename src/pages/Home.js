@@ -8,7 +8,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div id='home' style={{ paddingTop:'100px' }}>
+        <div id='home'>
             <Container className='themed-container' fluid={true} style={{ paddingLeft: '50px' }} >
             <Nav2 />
                 <div>
