@@ -1,8 +1,4 @@
 import React from 'react';
-import Home from '../../pages/Home';
-import Bio from '../../pages/Bio';
-import Contact from '../../pages/Contact';
-import Projects from '../../pages/Projects';
 import Resume from '../../assests/Resume.pdf';
 import * as ReactStrap from 'react-bootstrap';
 import './style.css';
