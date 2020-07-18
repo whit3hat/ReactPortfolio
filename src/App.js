@@ -13,9 +13,9 @@ function App() {
      <div>
        <Switch>
          <Route exact path='/' component={Home} />
-         <Route exact path='/bio' component={Bio} />
-         <Route exact path='/projects' component={Projects} />
-         <Route exact path='/contact' component={Contact} />
+         <Route path='/bio' component={Bio} />
+         <Route path='/projects' component={Projects} />
+         <Route path='/contact' component={Contact} />
          <Route component={NoMatch} />
        </Switch>
      </div>

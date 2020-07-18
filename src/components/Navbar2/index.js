@@ -11,13 +11,13 @@ import './style.css';
 function Nav2 () {
     return (
         <ReactStrap.Navbar bg="light" expand="lg">
-  <ReactStrap.Navbar.Brand href="/" component={Home}>Spencer Wood</ReactStrap.Navbar.Brand>
+  <ReactStrap.Navbar.Brand href="/" >Spencer Wood</ReactStrap.Navbar.Brand>
   <ReactStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
   <ReactStrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactStrap.Nav className="mr-auto">
-      <ReactStrap.Nav.Link href="/Bio" component={Bio}>Profile</ReactStrap.Nav.Link>
-      <ReactStrap.Nav.Link href="/Projects" component={Projects}>Projects</ReactStrap.Nav.Link>
-      <ReactStrap.Nav.Link href="/Contact" component={Contact}>Contact</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Bio" >Profile</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Projects" >Projects</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Contact" >Contact</ReactStrap.Nav.Link>
     </ReactStrap.Nav>
     {/* <ReactStrap.Form inline>
       <ReactStrap.FormControl type="text" placeholder="Search" className="mr-sm-2" />
