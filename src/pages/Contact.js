@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import { Col, Row, Container, Card, CardBody, CardText } from 'reactstrap';
-import Nav2 from '../components/Navbar2';
+import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Contact = () => {
