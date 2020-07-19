@@ -11,7 +11,7 @@ const Bio = () => {
     return (
         <div id='profile' style={{ fontFamily:'Ubuntu' }}>
             <Container className='themed-container' fluid={true}>
-            <Nav2 />
+            <Nav />
             <Row>
              
                 <Col xs={{ size: 'auto'}} sm={{ size: 'auto' }} md='6' lg='6'>

@@ -1,4 +1,4 @@
-.navbar {
+#basic-navbar-nav {
     background-color: #283655;
     color: #D0E1F9;
     font-family: 'Ubuntu', sans-serif;
@@ -9,7 +9,7 @@
     color: #D0E1F9 !important;
 }
 
-#name {
+#ReactStrap.Navbar.Brand {
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
 }

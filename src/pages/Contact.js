@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div id='contact' style={{ fontFamily:'Ubuntu' }}>
             <Container className='themed-container' fluid={true} >
-               <Nav2 /> 
+               <Nav /> 
                     <Row>
                         <Col s='2'>
                         <Card>

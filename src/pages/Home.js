@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div id='home'>
             <Container className='themed-container' fluid={true}  >
-            <Nav2 />
+            <Nav />
                 <div>
                     <Row>
                         <div id='greeting' style={{ fontFamily: 'Permanent Marker', fontSize: '50px', color: '#D0E1F9' }}>
