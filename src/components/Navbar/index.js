@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Resume from '../../assests/Resume.pdf';
 import * as ReactStrap from 'react-bootstrap';
 import './style.css';
@@ -11,9 +12,9 @@ function Nav () {
   <ReactStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
   <ReactStrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactStrap.Nav className="mr-auto">
-      <ReactStrap.Nav.Link href="/Bio" >Profile</ReactStrap.Nav.Link>
-      <ReactStrap.Nav.Link href="/Projects" >Projects</ReactStrap.Nav.Link>
-      <ReactStrap.Nav.Link href="/Contact" >Contact</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Bio" to='/Bio'>Profile</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Projects" to='/Projects' >Projects</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Contact" to='/Contact' >Contact</ReactStrap.Nav.Link>
     </ReactStrap.Nav>
     {/* <ReactStrap.Form inline>
       <ReactStrap.FormControl type="text" placeholder="Search" className="mr-sm-2" />
