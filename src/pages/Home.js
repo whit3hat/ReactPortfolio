@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
-import Nav from '../components/Navbar';
+
 import Footer from '../components/Footer';
 import skyline from '../assests/skyline.jpeg';
 import './Home.css';
@@ -8,7 +8,6 @@ import './Home.css';
 const Home = () => {
     return (
         <div id='home'>
-             <Nav />
             <Container className='themed-container' fluid='sm' >
            
                 <Row>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Bio.css';
 import { Col, Row, Container } from 'reactstrap';
 import BioPic from '../assests/bio_pic.jpg';
-import Nav from '../components/Navbar';
+
 import Footer from '../components/Footer';
 
 
@@ -11,7 +11,6 @@ const Bio = () => {
     return (
         <div id='profile' style={{ fontFamily:'Ubuntu' }}>
             <Container className='themed-container' fluid={true}>
-            <Nav />
             <Row>
              
                 <Col xs={{ size: 'auto'}} sm={{ size: 'auto' }} md='6' lg='6'>

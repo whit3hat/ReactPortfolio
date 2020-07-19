@@ -2,7 +2,6 @@ import React from 'react';
 import './Projects.css';
 import { Col, Row, Container } from 'reactstrap';
 import Footer from '../components/Footer';
-import Nav from '../components/Navbar';
 import Burger from '../assests/burger.png';
 import Planner from '../assests/DailyPlanner.png';
 import Budget from '../assests/BudgetTracker.png'
@@ -14,9 +13,7 @@ import Quiz from '../assests/quiz.jpeg';
 const Projects = () => {
     return (
         <div>
-        <Container className='themed-container' fluid={true}>
-          <Nav />
-          
+        <Container className='themed-container' fluid={true}>          
             <Row>
                 <Col size="lg-4 md-4">
                     <div className="card">

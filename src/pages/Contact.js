@@ -1,7 +1,6 @@
 import React from 'react';
 import './Contact.css';
 import { Col, Row, Container, Card, CardBody, CardText } from 'reactstrap';
-import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Contact = () => {
@@ -9,7 +8,7 @@ const Contact = () => {
     return (
         <div id='contact' style={{ fontFamily:'Ubuntu' }}>
             <Container className='themed-container' fluid={true} >
-               <Nav /> 
+        
                     <Row>
                         <Col s='2'>
                         <Card>
