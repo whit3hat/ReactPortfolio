@@ -12,7 +12,6 @@ import Quiz from '../assests/quiz.jpeg';
 
 const Projects = () => {
     return (
-        <div>
         <Container className='themed-container' fluid={true}>          
             <Row>
                 <Col size="lg-4 md-4">
@@ -100,7 +99,7 @@ const Projects = () => {
         </Row>
     <Footer />
 </Container>
-</div>
+
     )
 }
 

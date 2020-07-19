@@ -26,8 +26,10 @@ const Home = () => {
                         </div>
                         </Col>
                     </Row>   
-                    <Row>   
+                    <Row> 
+                        <Col xs={12} s={12}>  
                         <img src ={skyline} style={{ position: 'relative', zIndex: '-1' }} />
+                        </Col>
                     </Row>
             </Container>
             <Footer />
