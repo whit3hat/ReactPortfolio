@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 const Bio = () => {
     return (
-        <div id='profile' style={{paddingTop:'100px', fontFamily:'Ubuntu' }}>
+        <div id='profile' style={{ fontFamily:'Ubuntu' }}>
             <Container className='themed-container' fluid={true}>
             <Nav2 />
             <Row>

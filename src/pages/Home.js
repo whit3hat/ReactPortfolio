@@ -9,7 +9,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div id='home'>
-            <Container className='themed-container' fluid={true} style={{ paddingLeft: '50px' }} >
+            <Container className='themed-container' fluid={true}  >
             <Nav2 />
                 <div>
                     <Row>
