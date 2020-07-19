@@ -8,7 +8,9 @@ import './style.css';
 function Nav () {
     return (
         <ReactStrap.Navbar bg="light" expand="lg">
-  <ReactStrap.Navbar.Brand href="/" >Spencer Wood</ReactStrap.Navbar.Brand>
+  <ReactStrap.Navbar.Brand>
+     <Link to="/" >Spencer Wood</Link>
+     </ReactStrap.Navbar.Brand>
   <ReactStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
   <ReactStrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactStrap.Nav className="mr-auto">
