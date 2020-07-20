@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import { Col, Row, Container } from 'reactstrap';
+import { Col, Row, Container } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import Burger from '../assests/burger.png';
 import Planner from '../assests/DailyPlanner.png';
@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <Container className='themed-container' fluid={true}>          
             <Row>
-                <Col size="lg-4 md-4">
+                <Col sm='12' lg='4'>
                     <div className="card">
                         <img className="card-img-top" src={Burger} alt="" />
                             <div className="card-body"> 
@@ -27,7 +27,7 @@ const Projects = () => {
                             </div>
                     </div>
              </Col>
-             <Col size="lg-4 md-4">
+             <Col sm='12' lg='4'>
                     <div className="card">
                         <img className="card-img-top" src={Password} alt="" />
                             <div className="card-body">
@@ -40,7 +40,7 @@ const Projects = () => {
                             </div>
                     </div>
             </Col>
-            <Col size="lg-4 md-4">
+            <Col sm='12' lg='4'>
                     <div className="card">
                         <img className="card-img-top" src={Planner} alt="" />
                             <div className="card-body">
@@ -56,7 +56,7 @@ const Projects = () => {
            </Row>
            
            <Row>
-             <Col size="lg-4 md-4">
+           <Col sm='12' lg='4'>
                 <div className="card">
                         <img className="card-img-top" src={Quiz} alt="" />
                             <div className="card-body">
@@ -69,7 +69,7 @@ const Projects = () => {
                             </div>
                     </div>
                 </Col>
-                <Col size="lg-4 md-4">
+                <Col sm='12' lg='4'>
                     <div className="card">
                         <img className="card-img-top" src={Budget} alt="" />
                             <div className="card-body">
@@ -82,7 +82,7 @@ const Projects = () => {
                             </div>
                     </div>
                 </Col>
-                <Col size="lg-4 md-4">
+                <Col sm='12' lg='4'>
                     <div className="card">
                         <img className="card-img-top" src={EmployeeTracker} alt="" style={{ alignSelf: 'center' }}/>
                             <div className="card-body">
