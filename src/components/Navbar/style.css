@@ -4,6 +4,9 @@
     font-family: 'Ubuntu', sans-serif;
     
 }
+.navbar-expand-lg {
+    background-color: #283655;
+}
 
 .nav-link {
     color: #D0E1F9 !important;

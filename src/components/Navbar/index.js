@@ -7,7 +7,7 @@ import './style.css';
 
 function Nav () {
     return (
-        <ReactStrap.Navbar bg="light" expand="lg">
+        <ReactStrap.Navbar expand="lg">
   <ReactStrap.Navbar.Brand>
      <Link to="/" >Spencer Wood</Link>
      </ReactStrap.Navbar.Brand>
