@@ -1,8 +1,3 @@
-.container-fluid {
-  width: 100% !important;
-  margin: 0 auto !important;
-}
-
 .card {
     background-size: cover;
     background-position: center;
@@ -23,10 +18,10 @@
     top: 25%;
   }
   
-.card-img-top {
-    height: 250px;
-    width: 350px;
-}
+  #cardImg {
+   padding-left: 50px !important;
+   padding-right: 50px !important;
+  }
 
 .card-title {
   text-align: center;
