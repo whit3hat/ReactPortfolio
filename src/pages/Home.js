@@ -17,7 +17,7 @@ const Home = () => {
                 
                     <Row id='bioRow'>
                         <Col xs={12} s={12} >
-                            <p id='homeBio' style={{ fontFamily: 'Ubuntu' , color: '#283655' }}>Full Stack Web Developer based in Kansas City <br/> who enjoys building Web
+                            <p id='homeBio' style={{ fontFamily: 'Ubuntu' , color: '#283655' }}>A Full Stack Web Developer based in Kansas City who enjoys building Web
                                 Apps and brining them to life!</p> 
                         </Col>
                     </Row>   

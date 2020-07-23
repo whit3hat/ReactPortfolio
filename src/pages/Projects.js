@@ -14,19 +14,16 @@ const Projects = () => {
     return (
         <Container fluid>          
             <Row className='justify-content-md-center'>
-                <Col sm='12' lg='4'>
-                    
+                <Col sm='12' lg='4'>   
                   <Card >
-                    
                         <Card.Img variant='top' id='cardImg' src={Burger} />
-                    
-                        
                             <Card.Body>
                                 <Card.Title>Burger Shop</Card.Title>
-                                <Button variant='primary'>GitHub</Button>
+                                <div className='d-flex justify-content-center'>
+                                <a href="https://github.com/whit3hat/BurgerShop" className="btn btn-primary">GitHub Link</a>
+                                </div>
                             </Card.Body>
                     </Card>
-                   
              </Col>
              <Col sm='12' lg='4'>
                     <div className="card">
