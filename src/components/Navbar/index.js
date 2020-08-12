@@ -9,14 +9,14 @@ function Nav () {
     return (
         <ReactStrap.Navbar expand="lg">
   <ReactStrap.Navbar.Brand>
-     <Link to="/" >Spencer Wood</Link>
+     <Link to={"/"} >Spencer Wood</Link>
      </ReactStrap.Navbar.Brand>
   <ReactStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
   <ReactStrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactStrap.Nav className="mr-auto">
       <ReactStrap.Nav.Link href="/Bio" to={'/Bio'}>Profile</ReactStrap.Nav.Link>
-      <ReactStrap.Nav.Link href="/Projects" to='/Projects' >Projects</ReactStrap.Nav.Link>
-      <ReactStrap.Nav.Link href="/Contact" to='/Contact' >Contact</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Projects" to={'/Projects'} >Projects</ReactStrap.Nav.Link>
+      <ReactStrap.Nav.Link href="/Contact" to={'/Contact'} >Contact</ReactStrap.Nav.Link>
     </ReactStrap.Nav>
     {/* <ReactStrap.Form inline>
       <ReactStrap.FormControl type="text" placeholder="Search" className="mr-sm-2" />
