@@ -17,16 +17,14 @@ function App() {
           <Link to={'/'}>Spencer Wood</Link>
         </ReactStrap.Navbar.Brand>
         <ReactStrap.Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <ReactStrap.Navbar.Collapse id='basic-navbar-nav'>
+            <ReactStrap.Navbar.Collapse id='basic-navbar-nav'>
 
-       
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-     <ul className='navbar-nav mr-auto'>
-       <li><Link to={'/'} className='nav-link'> Home </Link></li>
-       <li><Link to={'/bio'} className='nav-link'> Bio </Link></li>
-       <li><Link to={'/projects'} className='nav-link'> Projects </Link></li>
-       <li><Link to={'/contact'} className='nav-link'> Contact </Link></li>
-     </ul>
+              <ReactStrap.Nav className='mr-auto'>
+                  <ReactStrap.Nav.Link href="/Bio" to={'/Bio'}>Profile</ReactStrap.Nav.Link>
+                  <ReactStrap.Nav.Link href="/Projects" to={'/Projects'} >Projects</ReactStrap.Nav.Link>
+                  <ReactStrap.Nav.Link href="/Contact" to={'/Contact'} >Contact</ReactStrap.Nav.Link>
+              </ReactStrap.Nav>
+      
      <ul className="navbar-nav nav-flex-icons">
      <li className="nav-item">
         <a href = "https://github.com/whit3hat" className="nav-link"><i className="fab fa-github fa-lg"></i></a>
@@ -38,7 +36,7 @@ function App() {
              <a href={Resume} target='_blank' className="nav-link"><i className="far fa-file-pdf fa-lg"></i></a>
            </li>
        </ul>
-     </nav>
+
      </ReactStrap.Navbar.Collapse>
       </ReactStrap.Navbar>
      
