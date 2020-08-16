@@ -18,10 +18,7 @@ function Nav () {
       <ReactStrap.Nav.Link href="/Projects" to={'/Projects'} >Projects</ReactStrap.Nav.Link>
       <ReactStrap.Nav.Link href="/Contact" to={'/Contact'} >Contact</ReactStrap.Nav.Link>
     </ReactStrap.Nav>
-    {/* <ReactStrap.Form inline>
-      <ReactStrap.FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <ReactStrap.Button variant="outline-success">Search</ReactStrap.Button>
-    </ReactStrap.Form> */}
+   
 
 <ul className="navbar-nav nav-flex-icons">
      <li className="nav-item">
