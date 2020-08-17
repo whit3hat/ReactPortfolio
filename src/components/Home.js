@@ -8,7 +8,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div id='home'>
-            <Container className='themed-container'  >
+            <Container className='themed-container'>
                 <Row>
                     <Col s={12} >
                             <p id='greeting' style={{ fontFamily: 'Permanent Marker', fontSize: '50px', color: '#D0E1F9' }}>Hello, I'm Spencer!</p>    

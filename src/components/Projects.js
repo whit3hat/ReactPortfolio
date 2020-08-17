@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Col, Row, Container, Card, Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
-import Burger from '../assests/burger.png';
+import WeatherPWA from '../assests/weather-pwa.png';
 import Planner from '../assests/DailyPlanner.png';
 import Budget from '../assests/BudgetTracker.png'
 import Password from '../assests/password.jpeg';
@@ -16,11 +16,11 @@ const Projects = () => {
             <Row className='justify-content-md-center'>
                 <Col sm='12' lg='4'>   
                   <Card >
-                        <Card.Img variant='top' id='cardImg' src={Burger} />
+                        <Card.Img variant='top' id='cardImg' src={WeatherPWA} />
                             <Card.Body>
-                                <Card.Title>Burger Shop</Card.Title>
+                                <Card.Title>Progressive Weather App</Card.Title>
                                 <div className='d-flex justify-content-center'>
-                                <a href="https://github.com/whit3hat/BurgerShop" className="btn btn-primary">GitHub Link</a>
+                                <a href="https://github.com/whit3hat/weatherPWA" className="btn btn-primary">GitHub Link</a>
                                 </div>
                             </Card.Body>
                     </Card>
