@@ -4,7 +4,7 @@ import './style.css'
 function Footer() {
     return (
         <footer className='page-footer font-small black'>
-            <div className='footer-copyright text-center py-3'>Spencer Wood © 2020</div>
+            <div className='footer-copyright text-center py-3'>Spencer Wood © 2021</div>
         </footer>
     );
 }
